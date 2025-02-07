@@ -12,7 +12,7 @@ public class Third {
         System.out.print("Введите число: ");
         int a;
         a = scan.nextInt();
-        if (a % 2 == 0 || a % 5 == 0 && a % 3 == 0 || a % 7 ==0) {
+        if (a % 2 == 0 && a % 5 == 0 || a % 3 == 0 && a % 7 ==0) {
             System.out.println("Число " + a + " делится");
         } else {
         }
