@@ -15,10 +15,8 @@ public class Second {
         a = scan.nextInt();
         System.out.print("Введите второе число: ");
         b = scan.nextInt();
-        if (a > b) {
-            System.out.println("Наибольшее число - " + a );
-        } else
-            System.out.println("Наибольшее число - " + b);
+        String result =  a > b ? " Наибольшее число " + a : " Наибольшее число " + b;
+        System.out.println(result);
 
     }
 }
