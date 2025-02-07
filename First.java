@@ -11,10 +11,7 @@ public class First {
         Scanner scan = new Scanner(System.in);
         System.out.println(" Введите число ");
         int n = scan.nextInt();
-        if ((n % 2) == 0) {
-            System.out.println("Число - " + n + " четное ");
-        } else {
-            System.out.println("Число - " + n + " нечетное ");
-        }
+        String result = n % 2 == 0 ? "Число - четное" : " Число нечётное";
+        System.out.println(result);
     }
 }
